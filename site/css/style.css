@@ -9,13 +9,13 @@ body { font-family: Arial, sans-serif; color: #172033; line-height: 1.55; backgr
 .main-nav a:hover { color: var(--accent); }
 .menu-button { display: none; border: 1px solid #cbd5e1; background: #fff; padding: 8px 12px; border-radius: 8px; }
 .hero { background: var(--dark); }
-.hero img { width: 100%; max-height: 520px; object-fit: cover; }
-.section { padding: 58px 0; }
+.hero img { width: 99%; max-height: 520px; object-fit: cover; }
+.section { padding: 78px 0; }
 .section.alt { background: var(--surface); }
 h1, h2 { line-height: 1.15; margin-top: 0; }
 h1 { font-size: clamp(34px, 5vw, 56px); }
-h2 { font-size: 32px; }
-.lead { max-width: 38rem; }
+h2 { font-size: 37px; }
+.lead { max-width: 32rem; }
 
 .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
 .card { padding: 24px; border: 1px solid #d9e0ea; border-radius: 16px; background: #fff; }
@@ -23,7 +23,7 @@ h2 { font-size: 32px; }
 .contact-list { list-style: none; padding: 0; }
 label { display: block; margin: 14px 0 6px; font-weight: 700; }
 input, textarea { width: 100%; padding: 11px; border: 1px solid #b7c2d0; border-radius: 8px; }
-.site-footer { padding: 28px 0; background: #111827; color: #fff; }
+.site-footer { padding: 28px 0; background: #136827; color: #fff; }
 .footer-row { display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
 @media (max-width: 760px) {
   .menu-button { display: block; }
